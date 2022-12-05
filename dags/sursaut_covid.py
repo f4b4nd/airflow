@@ -7,7 +7,7 @@ from airflow.providers.jdbc.operators.jdbc import JdbcOperator
 
 @dag(
 	dag_id="sursaut_covid_2",
-	schedule_interval="0 0 * * *",
+	# schedule_interval="0 0 * * *",
 	start_date=pendulum.datetime(2021, 1, 1, tz="UTC"),
 	catchup=False,
 	dagrun_timeout=datetime.timedelta(minutes=60),

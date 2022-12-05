@@ -1,0 +1,5 @@
+apache-airflow-providers-oracle==3.5.1
+apache-airflow-providers-jdbc==3.3.0
+cx_Oracle
+oracledb
+jaydebeapi
