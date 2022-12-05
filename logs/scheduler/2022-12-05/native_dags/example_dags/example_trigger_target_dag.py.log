@@ -716,3 +716,10 @@
 [2022-12-05T17:12:24.531+0100] {logging_mixin.py:137} INFO - [2022-12-05T17:12:24.531+0100] {dag.py:2676} INFO - Sync 1 DAGs
 [2022-12-05T17:12:24.562+0100] {logging_mixin.py:137} INFO - [2022-12-05T17:12:24.561+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
 [2022-12-05T17:12:24.596+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.161 seconds
+[2022-12-05T17:34:17.002+0100] {processor.py:153} INFO - Started process (PID=335320) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-05T17:34:17.005+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-05T17:34:17.007+0100] {logging_mixin.py:137} INFO - [2022-12-05T17:34:17.007+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-05T17:34:17.041+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-05T17:34:17.095+0100] {logging_mixin.py:137} INFO - [2022-12-05T17:34:17.095+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T17:34:17.123+0100] {logging_mixin.py:137} INFO - [2022-12-05T17:34:17.123+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-05T17:34:17.151+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.153 seconds

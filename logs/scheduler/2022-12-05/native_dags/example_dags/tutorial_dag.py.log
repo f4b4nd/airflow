@@ -688,3 +688,10 @@
 [2022-12-05T17:12:29.364+0100] {logging_mixin.py:137} INFO - [2022-12-05T17:12:29.363+0100] {dag.py:2676} INFO - Sync 1 DAGs
 [2022-12-05T17:12:29.392+0100] {logging_mixin.py:137} INFO - [2022-12-05T17:12:29.392+0100] {dag.py:3423} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
 [2022-12-05T17:12:29.422+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.128 seconds
+[2022-12-05T17:34:21.940+0100] {processor.py:153} INFO - Started process (PID=335329) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2022-12-05T17:34:21.946+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2022-12-05T17:34:21.948+0100] {logging_mixin.py:137} INFO - [2022-12-05T17:34:21.947+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2022-12-05T17:34:21.971+0100] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2022-12-05T17:34:22.025+0100] {logging_mixin.py:137} INFO - [2022-12-05T17:34:22.021+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T17:34:22.058+0100] {logging_mixin.py:137} INFO - [2022-12-05T17:34:22.058+0100] {dag.py:3423} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2022-12-05T17:34:22.088+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.156 seconds

@@ -660,3 +660,10 @@
 [2022-12-05T17:12:36.746+0100] {logging_mixin.py:137} INFO - [2022-12-05T17:12:36.745+0100] {dag.py:2676} INFO - Sync 1 DAGs
 [2022-12-05T17:12:36.784+0100] {logging_mixin.py:137} INFO - [2022-12-05T17:12:36.784+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only_with_trigger to 2022-12-05T12:12:36.784254+00:00, run_after=2022-12-05T16:12:36.784254+00:00
 [2022-12-05T17:12:36.815+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.191 seconds
+[2022-12-05T17:34:29.855+0100] {processor.py:153} INFO - Started process (PID=335374) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2022-12-05T17:34:29.867+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py for tasks to queue
+[2022-12-05T17:34:29.867+0100] {logging_mixin.py:137} INFO - [2022-12-05T17:34:29.867+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2022-12-05T17:34:29.917+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only_with_trigger']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2022-12-05T17:34:30.066+0100] {logging_mixin.py:137} INFO - [2022-12-05T17:34:30.065+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T17:34:30.103+0100] {logging_mixin.py:137} INFO - [2022-12-05T17:34:30.102+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only_with_trigger to 2022-12-05T12:34:30.102327+00:00, run_after=2022-12-05T16:34:30.102327+00:00
+[2022-12-05T17:34:30.173+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.322 seconds

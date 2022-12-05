@@ -611,3 +611,10 @@
 [2022-12-05T16:59:38.703+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:59:38.702+0100] {dag.py:2676} INFO - Sync 1 DAGs
 [2022-12-05T16:59:38.732+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:59:38.732+0100] {dag.py:3423} INFO - Setting next_dagrun for example_skip_dag to 2022-12-04T15:59:38.732128+00:00, run_after=2022-12-05T15:59:38.732128+00:00
 [2022-12-05T16:59:38.760+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.133 seconds
+[2022-12-05T17:34:39.035+0100] {processor.py:153} INFO - Started process (PID=335410) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-12-05T17:34:39.036+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2022-12-05T17:34:39.037+0100] {logging_mixin.py:137} INFO - [2022-12-05T17:34:39.037+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-12-05T17:34:39.073+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-12-05T17:34:39.124+0100] {logging_mixin.py:137} INFO - [2022-12-05T17:34:39.124+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T17:34:39.153+0100] {logging_mixin.py:137} INFO - [2022-12-05T17:34:39.153+0100] {dag.py:3423} INFO - Setting next_dagrun for example_skip_dag to 2022-12-04T16:34:39.153080+00:00, run_after=2022-12-05T16:34:39.153080+00:00
+[2022-12-05T17:34:39.189+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.159 seconds

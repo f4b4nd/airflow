@@ -790,3 +790,11 @@ airflow.exceptions.AirflowNotFoundException: The conn_id `oraclethin` isn't defi
 [2022-12-05T17:13:34.034+0100] {logging_mixin.py:137} INFO - [2022-12-05T17:13:34.033+0100] {dag.py:2676} INFO - Sync 1 DAGs
 [2022-12-05T17:13:34.065+0100] {logging_mixin.py:137} INFO - [2022-12-05T17:13:34.064+0100] {dag.py:3423} INFO - Setting next_dagrun for sursaut_covid_2 to 2022-12-05T00:00:00+00:00, run_after=2022-12-06T00:00:00+00:00
 [2022-12-05T17:13:34.102+0100] {processor.py:175} INFO - Processing /home/andria/airflow/dags/sursaut_covid.py took 0.199 seconds
+[2022-12-05T17:31:50.889+0100] {processor.py:153} INFO - Started process (PID=335229) to work on /home/andria/airflow/dags/sursaut_covid.py
+[2022-12-05T17:31:50.891+0100] {processor.py:743} INFO - Processing file /home/andria/airflow/dags/sursaut_covid.py for tasks to queue
+[2022-12-05T17:31:50.892+0100] {logging_mixin.py:137} INFO - [2022-12-05T17:31:50.892+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/airflow/dags/sursaut_covid.py
+[2022-12-05T17:31:50.958+0100] {logging_mixin.py:137} WARNING - /home/andria/.local/lib/python3.10/site-packages/airflow/models/dag.py:3492 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-12-05T17:31:50.972+0100] {processor.py:753} INFO - DAG(s) dict_keys(['sursaut_covid_2']) retrieved from /home/andria/airflow/dags/sursaut_covid.py
+[2022-12-05T17:31:51.031+0100] {logging_mixin.py:137} INFO - [2022-12-05T17:31:51.030+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T17:31:51.065+0100] {logging_mixin.py:137} INFO - [2022-12-05T17:31:51.065+0100] {dag.py:3423} INFO - Setting next_dagrun for sursaut_covid_2 to 2022-12-05T00:00:00+00:00, run_after=2022-12-06T00:00:00+00:00
+[2022-12-05T17:31:51.097+0100] {processor.py:175} INFO - Processing /home/andria/airflow/dags/sursaut_covid.py took 0.214 seconds

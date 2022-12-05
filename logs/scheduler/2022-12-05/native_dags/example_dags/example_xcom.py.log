@@ -716,3 +716,10 @@
 [2022-12-05T17:12:25.832+0100] {logging_mixin.py:137} INFO - [2022-12-05T17:12:25.832+0100] {dag.py:2676} INFO - Sync 1 DAGs
 [2022-12-05T17:12:25.879+0100] {logging_mixin.py:137} INFO - [2022-12-05T17:12:25.879+0100] {dag.py:3423} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
 [2022-12-05T17:12:25.922+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.222 seconds
+[2022-12-05T17:34:18.253+0100] {processor.py:153} INFO - Started process (PID=335323) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-12-05T17:34:18.255+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-12-05T17:34:18.256+0100] {logging_mixin.py:137} INFO - [2022-12-05T17:34:18.256+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-12-05T17:34:18.294+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-12-05T17:34:18.344+0100] {logging_mixin.py:137} INFO - [2022-12-05T17:34:18.344+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T17:34:18.372+0100] {logging_mixin.py:137} INFO - [2022-12-05T17:34:18.372+0100] {dag.py:3423} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-12-05T17:34:18.406+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.156 seconds

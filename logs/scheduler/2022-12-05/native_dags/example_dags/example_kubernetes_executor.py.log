@@ -568,3 +568,9 @@
 [2022-12-05T17:12:34.422+0100] {logging_mixin.py:137} INFO - [2022-12-05T17:12:34.422+0100] {example_kubernetes_executor.py:41} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
 [2022-12-05T17:12:34.422+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
 [2022-12-05T17:12:34.438+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py took 0.049 seconds
+[2022-12-05T17:34:27.123+0100] {processor.py:153} INFO - Started process (PID=335349) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2022-12-05T17:34:27.125+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py for tasks to queue
+[2022-12-05T17:34:27.126+0100] {logging_mixin.py:137} INFO - [2022-12-05T17:34:27.125+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2022-12-05T17:34:27.149+0100] {logging_mixin.py:137} INFO - [2022-12-05T17:34:27.149+0100] {example_kubernetes_executor.py:41} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+[2022-12-05T17:34:27.149+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2022-12-05T17:34:27.160+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py took 0.040 seconds

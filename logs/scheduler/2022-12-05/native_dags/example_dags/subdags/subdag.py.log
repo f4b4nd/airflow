@@ -478,3 +478,8 @@
 [2022-12-05T17:12:33.231+0100] {logging_mixin.py:137} INFO - [2022-12-05T17:12:33.231+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
 [2022-12-05T17:12:33.236+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
 [2022-12-05T17:12:33.249+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.025 seconds
+[2022-12-05T17:34:25.935+0100] {processor.py:153} INFO - Started process (PID=335344) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2022-12-05T17:34:25.937+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2022-12-05T17:34:25.938+0100] {logging_mixin.py:137} INFO - [2022-12-05T17:34:25.938+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2022-12-05T17:34:25.944+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2022-12-05T17:34:25.961+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.031 seconds

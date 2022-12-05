@@ -14,9 +14,10 @@ from airflow.providers.jdbc.operators.jdbc import JdbcOperator
 )
 def Process():
 
+
     read_table_jdbc = JdbcOperator(
         task_id="jdbc_fetchall",
-        jdbc_conn_id="jdbc_inpa_0",
+        jdbc_conn_id="jdbc_inpa",
         sql=" select * from etlv2.sursaut_covid ",
         autocommit=True,
     )
