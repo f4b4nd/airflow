@@ -1,0 +1,201 @@
+[2022-12-05T16:18:29.022+0100] {processor.py:153} INFO - Started process (PID=328574) to work on /home/andria/airflow/dags/process_employees.py
+[2022-12-05T16:18:29.023+0100] {processor.py:743} INFO - Processing file /home/andria/airflow/dags/process_employees.py for tasks to queue
+[2022-12-05T16:18:29.024+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:18:29.024+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/airflow/dags/process_employees.py
+[2022-12-05T16:18:29.048+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:18:29.047+0100] {dagbag.py:343} ERROR - Failed to import: /home/andria/airflow/dags/process_employees.py
+Traceback (most recent call last):
+  File "/home/andria/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/andria/airflow/dags/process_employees.py", line 7, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2022-12-05T16:18:29.049+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/andria/airflow/dags/process_employees.py
+[2022-12-05T16:18:29.069+0100] {processor.py:175} INFO - Processing /home/andria/airflow/dags/process_employees.py took 0.051 seconds
+[2022-12-05T16:19:15.669+0100] {processor.py:153} INFO - Started process (PID=328662) to work on /home/andria/airflow/dags/process_employees.py
+[2022-12-05T16:19:15.671+0100] {processor.py:743} INFO - Processing file /home/andria/airflow/dags/process_employees.py for tasks to queue
+[2022-12-05T16:19:15.673+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:19:15.673+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/airflow/dags/process_employees.py
+[2022-12-05T16:19:15.696+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:19:15.696+0100] {dagbag.py:343} ERROR - Failed to import: /home/andria/airflow/dags/process_employees.py
+Traceback (most recent call last):
+  File "/home/andria/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/andria/airflow/dags/process_employees.py", line 7, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2022-12-05T16:19:15.697+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/andria/airflow/dags/process_employees.py
+[2022-12-05T16:19:15.714+0100] {processor.py:175} INFO - Processing /home/andria/airflow/dags/process_employees.py took 0.049 seconds
+[2022-12-05T16:20:04.497+0100] {processor.py:153} INFO - Started process (PID=328742) to work on /home/andria/airflow/dags/process_employees.py
+[2022-12-05T16:20:04.499+0100] {processor.py:743} INFO - Processing file /home/andria/airflow/dags/process_employees.py for tasks to queue
+[2022-12-05T16:20:04.500+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:20:04.500+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/airflow/dags/process_employees.py
+[2022-12-05T16:20:04.528+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:20:04.527+0100] {dagbag.py:343} ERROR - Failed to import: /home/andria/airflow/dags/process_employees.py
+Traceback (most recent call last):
+  File "/home/andria/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/andria/airflow/dags/process_employees.py", line 7, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2022-12-05T16:20:04.529+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/andria/airflow/dags/process_employees.py
+[2022-12-05T16:20:04.549+0100] {processor.py:175} INFO - Processing /home/andria/airflow/dags/process_employees.py took 0.056 seconds
+[2022-12-05T16:20:52.988+0100] {processor.py:153} INFO - Started process (PID=328814) to work on /home/andria/airflow/dags/process_employees.py
+[2022-12-05T16:20:52.989+0100] {processor.py:743} INFO - Processing file /home/andria/airflow/dags/process_employees.py for tasks to queue
+[2022-12-05T16:20:52.990+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:20:52.990+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/airflow/dags/process_employees.py
+[2022-12-05T16:20:53.011+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:20:53.010+0100] {dagbag.py:343} ERROR - Failed to import: /home/andria/airflow/dags/process_employees.py
+Traceback (most recent call last):
+  File "/home/andria/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/andria/airflow/dags/process_employees.py", line 7, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2022-12-05T16:20:53.012+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/andria/airflow/dags/process_employees.py
+[2022-12-05T16:20:53.029+0100] {processor.py:175} INFO - Processing /home/andria/airflow/dags/process_employees.py took 0.044 seconds
+[2022-12-05T16:21:39.959+0100] {processor.py:153} INFO - Started process (PID=328878) to work on /home/andria/airflow/dags/process_employees.py
+[2022-12-05T16:21:39.960+0100] {processor.py:743} INFO - Processing file /home/andria/airflow/dags/process_employees.py for tasks to queue
+[2022-12-05T16:21:39.961+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:21:39.961+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/airflow/dags/process_employees.py
+[2022-12-05T16:21:39.983+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:21:39.982+0100] {dagbag.py:343} ERROR - Failed to import: /home/andria/airflow/dags/process_employees.py
+Traceback (most recent call last):
+  File "/home/andria/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/andria/airflow/dags/process_employees.py", line 7, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2022-12-05T16:21:39.983+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/andria/airflow/dags/process_employees.py
+[2022-12-05T16:21:40.002+0100] {processor.py:175} INFO - Processing /home/andria/airflow/dags/process_employees.py took 0.048 seconds
+[2022-12-05T16:22:29.539+0100] {processor.py:153} INFO - Started process (PID=329008) to work on /home/andria/airflow/dags/process_employees.py
+[2022-12-05T16:22:29.540+0100] {processor.py:743} INFO - Processing file /home/andria/airflow/dags/process_employees.py for tasks to queue
+[2022-12-05T16:22:29.541+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:22:29.541+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/airflow/dags/process_employees.py
+[2022-12-05T16:22:29.570+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:22:29.569+0100] {dagbag.py:343} ERROR - Failed to import: /home/andria/airflow/dags/process_employees.py
+Traceback (most recent call last):
+  File "/home/andria/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/andria/airflow/dags/process_employees.py", line 7, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2022-12-05T16:22:29.570+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/andria/airflow/dags/process_employees.py
+[2022-12-05T16:22:29.588+0100] {processor.py:175} INFO - Processing /home/andria/airflow/dags/process_employees.py took 0.054 seconds
+[2022-12-05T16:23:18.538+0100] {processor.py:153} INFO - Started process (PID=329104) to work on /home/andria/airflow/dags/process_employees.py
+[2022-12-05T16:23:18.539+0100] {processor.py:743} INFO - Processing file /home/andria/airflow/dags/process_employees.py for tasks to queue
+[2022-12-05T16:23:18.540+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:23:18.539+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/airflow/dags/process_employees.py
+[2022-12-05T16:23:18.561+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:23:18.561+0100] {dagbag.py:343} ERROR - Failed to import: /home/andria/airflow/dags/process_employees.py
+Traceback (most recent call last):
+  File "/home/andria/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/andria/airflow/dags/process_employees.py", line 7, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2022-12-05T16:23:18.562+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/andria/airflow/dags/process_employees.py
+[2022-12-05T16:23:18.580+0100] {processor.py:175} INFO - Processing /home/andria/airflow/dags/process_employees.py took 0.046 seconds
+[2022-12-05T16:24:04.019+0100] {processor.py:153} INFO - Started process (PID=329194) to work on /home/andria/airflow/dags/process_employees.py
+[2022-12-05T16:24:04.020+0100] {processor.py:743} INFO - Processing file /home/andria/airflow/dags/process_employees.py for tasks to queue
+[2022-12-05T16:24:04.021+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:24:04.021+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/airflow/dags/process_employees.py
+[2022-12-05T16:24:04.050+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:24:04.049+0100] {dagbag.py:343} ERROR - Failed to import: /home/andria/airflow/dags/process_employees.py
+Traceback (most recent call last):
+  File "/home/andria/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/andria/airflow/dags/process_employees.py", line 7, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2022-12-05T16:24:04.050+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/andria/airflow/dags/process_employees.py
+[2022-12-05T16:24:04.071+0100] {processor.py:175} INFO - Processing /home/andria/airflow/dags/process_employees.py took 0.056 seconds
+[2022-12-05T16:24:53.960+0100] {processor.py:153} INFO - Started process (PID=329312) to work on /home/andria/airflow/dags/process_employees.py
+[2022-12-05T16:24:53.962+0100] {processor.py:743} INFO - Processing file /home/andria/airflow/dags/process_employees.py for tasks to queue
+[2022-12-05T16:24:53.963+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:24:53.963+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/airflow/dags/process_employees.py
+[2022-12-05T16:24:53.991+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:24:53.990+0100] {dagbag.py:343} ERROR - Failed to import: /home/andria/airflow/dags/process_employees.py
+Traceback (most recent call last):
+  File "/home/andria/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/andria/airflow/dags/process_employees.py", line 7, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2022-12-05T16:24:53.991+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/andria/airflow/dags/process_employees.py
+[2022-12-05T16:24:54.009+0100] {processor.py:175} INFO - Processing /home/andria/airflow/dags/process_employees.py took 0.054 seconds
+[2022-12-05T16:25:42.429+0100] {processor.py:153} INFO - Started process (PID=329382) to work on /home/andria/airflow/dags/process_employees.py
+[2022-12-05T16:25:42.431+0100] {processor.py:743} INFO - Processing file /home/andria/airflow/dags/process_employees.py for tasks to queue
+[2022-12-05T16:25:42.432+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:25:42.431+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/airflow/dags/process_employees.py
+[2022-12-05T16:25:42.457+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:25:42.456+0100] {dagbag.py:343} ERROR - Failed to import: /home/andria/airflow/dags/process_employees.py
+Traceback (most recent call last):
+  File "/home/andria/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/andria/airflow/dags/process_employees.py", line 7, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2022-12-05T16:25:42.457+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/andria/airflow/dags/process_employees.py
+[2022-12-05T16:25:42.475+0100] {processor.py:175} INFO - Processing /home/andria/airflow/dags/process_employees.py took 0.051 seconds
+[2022-12-05T16:26:34.638+0100] {processor.py:153} INFO - Started process (PID=329456) to work on /home/andria/airflow/dags/process_employees.py
+[2022-12-05T16:26:34.642+0100] {processor.py:743} INFO - Processing file /home/andria/airflow/dags/process_employees.py for tasks to queue
+[2022-12-05T16:26:34.643+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:26:34.643+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/airflow/dags/process_employees.py
+[2022-12-05T16:26:34.666+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:26:34.665+0100] {dagbag.py:343} ERROR - Failed to import: /home/andria/airflow/dags/process_employees.py
+Traceback (most recent call last):
+  File "/home/andria/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/andria/airflow/dags/process_employees.py", line 7, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2022-12-05T16:26:34.666+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/andria/airflow/dags/process_employees.py
+[2022-12-05T16:26:34.684+0100] {processor.py:175} INFO - Processing /home/andria/airflow/dags/process_employees.py took 0.051 seconds
+[2022-12-05T16:27:27.066+0100] {processor.py:153} INFO - Started process (PID=329523) to work on /home/andria/airflow/dags/process_employees.py
+[2022-12-05T16:27:27.067+0100] {processor.py:743} INFO - Processing file /home/andria/airflow/dags/process_employees.py for tasks to queue
+[2022-12-05T16:27:27.068+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:27:27.068+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/airflow/dags/process_employees.py
+[2022-12-05T16:27:27.088+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:27:27.087+0100] {dagbag.py:343} ERROR - Failed to import: /home/andria/airflow/dags/process_employees.py
+Traceback (most recent call last):
+  File "/home/andria/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/andria/airflow/dags/process_employees.py", line 7, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2022-12-05T16:27:27.088+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/andria/airflow/dags/process_employees.py
+[2022-12-05T16:27:27.106+0100] {processor.py:175} INFO - Processing /home/andria/airflow/dags/process_employees.py took 0.043 seconds
+[2022-12-05T16:28:17.068+0100] {processor.py:153} INFO - Started process (PID=329586) to work on /home/andria/airflow/dags/process_employees.py
+[2022-12-05T16:28:17.074+0100] {processor.py:743} INFO - Processing file /home/andria/airflow/dags/process_employees.py for tasks to queue
+[2022-12-05T16:28:17.076+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:28:17.075+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/airflow/dags/process_employees.py
+[2022-12-05T16:28:17.101+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:28:17.101+0100] {dagbag.py:343} ERROR - Failed to import: /home/andria/airflow/dags/process_employees.py
+Traceback (most recent call last):
+  File "/home/andria/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/andria/airflow/dags/process_employees.py", line 7, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2022-12-05T16:28:17.102+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/andria/airflow/dags/process_employees.py
+[2022-12-05T16:28:17.120+0100] {processor.py:175} INFO - Processing /home/andria/airflow/dags/process_employees.py took 0.057 seconds
+[2022-12-05T16:29:06.471+0100] {processor.py:153} INFO - Started process (PID=329735) to work on /home/andria/airflow/dags/process_employees.py
+[2022-12-05T16:29:06.472+0100] {processor.py:743} INFO - Processing file /home/andria/airflow/dags/process_employees.py for tasks to queue
+[2022-12-05T16:29:06.473+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:29:06.473+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/airflow/dags/process_employees.py
+[2022-12-05T16:29:06.507+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:29:06.505+0100] {dagbag.py:343} ERROR - Failed to import: /home/andria/airflow/dags/process_employees.py
+Traceback (most recent call last):
+  File "/home/andria/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/andria/airflow/dags/process_employees.py", line 7, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2022-12-05T16:29:06.508+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/andria/airflow/dags/process_employees.py
+[2022-12-05T16:29:06.530+0100] {processor.py:175} INFO - Processing /home/andria/airflow/dags/process_employees.py took 0.064 seconds
+[2022-12-05T16:29:57.243+0100] {processor.py:153} INFO - Started process (PID=329800) to work on /home/andria/airflow/dags/process_employees.py
+[2022-12-05T16:29:57.244+0100] {processor.py:743} INFO - Processing file /home/andria/airflow/dags/process_employees.py for tasks to queue
+[2022-12-05T16:29:57.245+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:29:57.245+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/airflow/dags/process_employees.py
+[2022-12-05T16:29:57.245+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/andria/airflow/dags/process_employees.py
+[2022-12-05T16:29:57.256+0100] {processor.py:175} INFO - Processing /home/andria/airflow/dags/process_employees.py took 0.018 seconds

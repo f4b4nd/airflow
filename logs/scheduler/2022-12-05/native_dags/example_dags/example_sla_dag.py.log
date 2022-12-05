@@ -1,0 +1,613 @@
+[2022-12-05T15:35:28.734+0100] {processor.py:153} INFO - Started process (PID=324776) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:35:28.736+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T15:35:28.737+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:35:28.737+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:35:28.778+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:35:28.991+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:35:28.991+0100] {manager.py:504} INFO - Created Permission View: can read on DAG:example_sla_dag
+[2022-12-05T15:35:29.005+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:35:29.004+0100] {manager.py:504} INFO - Created Permission View: can delete on DAG:example_sla_dag
+[2022-12-05T15:35:29.014+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:35:29.013+0100] {manager.py:504} INFO - Created Permission View: can edit on DAG:example_sla_dag
+[2022-12-05T15:35:29.014+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:35:29.014+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T15:35:29.033+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:35:29.032+0100] {dag.py:2697} INFO - Creating ORM DAG for example_sla_dag
+[2022-12-05T15:35:29.055+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:35:29.055+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T14:32:00+00:00, run_after=2022-12-05T14:34:00+00:00
+[2022-12-05T15:35:29.081+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.353 seconds
+[2022-12-05T15:36:13.399+0100] {processor.py:153} INFO - Started process (PID=324832) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:36:13.402+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T15:36:13.403+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:36:13.403+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:36:13.453+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:36:13.512+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:36:13.511+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T15:36:13.555+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:36:13.555+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T14:34:00+00:00, run_after=2022-12-05T14:36:00+00:00
+[2022-12-05T15:36:13.607+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.214 seconds
+[2022-12-05T15:36:56.212+0100] {processor.py:153} INFO - Started process (PID=324915) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:36:56.215+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T15:36:56.220+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:36:56.220+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:36:56.272+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:36:56.328+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:36:56.327+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T15:36:56.391+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:36:56.390+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T14:34:00+00:00, run_after=2022-12-05T14:36:00+00:00
+[2022-12-05T15:36:56.431+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.233 seconds
+[2022-12-05T15:37:38.724+0100] {processor.py:153} INFO - Started process (PID=324971) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:37:38.728+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T15:37:38.730+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:37:38.730+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:37:38.779+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:37:38.830+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:37:38.829+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T15:37:38.888+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:37:38.888+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T14:34:00+00:00, run_after=2022-12-05T14:36:00+00:00
+[2022-12-05T15:37:38.919+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.199 seconds
+[2022-12-05T15:38:24.270+0100] {processor.py:153} INFO - Started process (PID=325053) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:38:24.272+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T15:38:24.273+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:38:24.273+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:38:24.324+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:38:24.397+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:38:24.397+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T15:38:24.445+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:38:24.444+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T14:36:00+00:00, run_after=2022-12-05T14:38:00+00:00
+[2022-12-05T15:38:24.499+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.236 seconds
+[2022-12-05T15:39:08.702+0100] {processor.py:153} INFO - Started process (PID=325141) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:39:08.710+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T15:39:08.711+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:39:08.711+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:39:08.763+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:39:08.819+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:39:08.819+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T15:39:08.864+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:39:08.863+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T14:36:00+00:00, run_after=2022-12-05T14:38:00+00:00
+[2022-12-05T15:39:08.897+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.202 seconds
+[2022-12-05T15:39:50.698+0100] {processor.py:153} INFO - Started process (PID=325195) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:39:50.700+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T15:39:50.700+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:39:50.700+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:39:50.744+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:39:50.800+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:39:50.799+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T15:39:50.844+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:39:50.844+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T14:36:00+00:00, run_after=2022-12-05T14:38:00+00:00
+[2022-12-05T15:39:50.880+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.185 seconds
+[2022-12-05T15:40:36.514+0100] {processor.py:153} INFO - Started process (PID=325265) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:40:36.515+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T15:40:36.516+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:40:36.516+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:40:36.577+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:40:36.638+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:40:36.638+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T15:40:36.682+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:40:36.682+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T14:38:00+00:00, run_after=2022-12-05T14:40:00+00:00
+[2022-12-05T15:40:36.721+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.211 seconds
+[2022-12-05T15:41:22.959+0100] {processor.py:153} INFO - Started process (PID=325407) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:41:22.961+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T15:41:22.962+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:41:22.962+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:41:23.006+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:41:23.057+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:41:23.056+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T15:41:23.104+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:41:23.096+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T14:38:00+00:00, run_after=2022-12-05T14:40:00+00:00
+[2022-12-05T15:41:23.145+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.191 seconds
+[2022-12-05T15:42:03.778+0100] {processor.py:153} INFO - Started process (PID=325457) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:42:03.779+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T15:42:03.780+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:42:03.780+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:42:03.820+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:42:03.870+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:42:03.870+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T15:42:03.910+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:42:03.909+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T14:40:00+00:00, run_after=2022-12-05T14:42:00+00:00
+[2022-12-05T15:42:03.940+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.166 seconds
+[2022-12-05T15:42:46.850+0100] {processor.py:153} INFO - Started process (PID=325511) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:42:46.851+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T15:42:46.852+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:42:46.852+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:42:46.897+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:42:46.948+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:42:46.947+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T15:42:46.988+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:42:46.987+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T14:40:00+00:00, run_after=2022-12-05T14:42:00+00:00
+[2022-12-05T15:42:47.022+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.176 seconds
+[2022-12-05T15:43:28.819+0100] {processor.py:153} INFO - Started process (PID=325561) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:43:28.821+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T15:43:28.823+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:43:28.822+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:43:28.860+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:43:28.908+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:43:28.908+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T15:43:28.947+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:43:28.947+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T14:40:00+00:00, run_after=2022-12-05T14:42:00+00:00
+[2022-12-05T15:43:28.982+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.172 seconds
+[2022-12-05T15:44:10.437+0100] {processor.py:153} INFO - Started process (PID=325638) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:44:10.438+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T15:44:10.439+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:44:10.439+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:44:10.485+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:44:10.544+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:44:10.543+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T15:44:10.593+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:44:10.593+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T14:42:00+00:00, run_after=2022-12-05T14:44:00+00:00
+[2022-12-05T15:44:10.634+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.204 seconds
+[2022-12-05T15:44:59.193+0100] {processor.py:153} INFO - Started process (PID=325699) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:44:59.194+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T15:44:59.195+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:44:59.195+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:44:59.236+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:44:59.287+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:44:59.287+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T15:44:59.327+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:44:59.326+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T14:42:00+00:00, run_after=2022-12-05T14:44:00+00:00
+[2022-12-05T15:44:59.355+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.169 seconds
+[2022-12-05T15:45:46.834+0100] {processor.py:153} INFO - Started process (PID=325762) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:45:46.835+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T15:45:46.836+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:45:46.836+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:45:46.882+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:45:46.936+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:45:46.936+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T15:45:46.976+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:45:46.976+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T14:42:00+00:00, run_after=2022-12-05T14:44:00+00:00
+[2022-12-05T15:45:47.005+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.177 seconds
+[2022-12-05T15:46:25.361+0100] {processor.py:153} INFO - Started process (PID=325814) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:46:25.365+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T15:46:25.366+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:46:25.366+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:46:25.420+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:46:25.473+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:46:25.473+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T15:46:25.513+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:46:25.513+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T14:44:00+00:00, run_after=2022-12-05T14:46:00+00:00
+[2022-12-05T15:46:25.542+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.190 seconds
+[2022-12-05T15:47:03.116+0100] {processor.py:153} INFO - Started process (PID=325859) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:47:03.118+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T15:47:03.119+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:47:03.118+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:47:03.163+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:47:03.218+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:47:03.217+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T15:47:03.256+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:47:03.256+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T14:44:00+00:00, run_after=2022-12-05T14:46:00+00:00
+[2022-12-05T15:47:03.287+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.177 seconds
+[2022-12-05T15:47:49.994+0100] {processor.py:153} INFO - Started process (PID=325915) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:47:49.996+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T15:47:49.997+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:47:49.997+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:47:50.037+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:47:50.084+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:47:50.084+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T15:47:50.123+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:47:50.123+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T14:44:00+00:00, run_after=2022-12-05T14:46:00+00:00
+[2022-12-05T15:47:50.149+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.163 seconds
+[2022-12-05T15:48:29.545+0100] {processor.py:153} INFO - Started process (PID=325972) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:48:29.546+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T15:48:29.547+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:48:29.547+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:48:29.591+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:48:29.645+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:48:29.645+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T15:48:29.686+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:48:29.686+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T14:46:00+00:00, run_after=2022-12-05T14:48:00+00:00
+[2022-12-05T15:48:29.721+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.180 seconds
+[2022-12-05T15:49:11.674+0100] {processor.py:153} INFO - Started process (PID=326046) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:49:11.676+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T15:49:11.678+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:49:11.677+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:49:11.729+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:49:11.781+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:49:11.781+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T15:49:11.827+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:49:11.826+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T14:46:00+00:00, run_after=2022-12-05T14:48:00+00:00
+[2022-12-05T15:49:11.860+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.195 seconds
+[2022-12-05T15:49:58.749+0100] {processor.py:153} INFO - Started process (PID=326104) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:49:58.750+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T15:49:58.751+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:49:58.751+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:49:58.793+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:49:58.843+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:49:58.843+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T15:49:58.885+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:49:58.885+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T14:46:00+00:00, run_after=2022-12-05T14:48:00+00:00
+[2022-12-05T15:49:58.918+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.173 seconds
+[2022-12-05T15:50:35.985+0100] {processor.py:153} INFO - Started process (PID=326160) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:50:35.988+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T15:50:35.990+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:50:35.990+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:50:36.030+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:50:36.086+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:50:36.085+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T15:50:36.137+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:50:36.136+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T14:48:00+00:00, run_after=2022-12-05T14:50:00+00:00
+[2022-12-05T15:50:36.172+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.195 seconds
+[2022-12-05T15:51:15.361+0100] {processor.py:153} INFO - Started process (PID=326209) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:51:15.362+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T15:51:15.363+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:51:15.363+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:51:15.405+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:51:15.454+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:51:15.454+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T15:51:15.492+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:51:15.491+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T14:48:00+00:00, run_after=2022-12-05T14:50:00+00:00
+[2022-12-05T15:51:15.521+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.164 seconds
+[2022-12-05T15:52:05.231+0100] {processor.py:153} INFO - Started process (PID=326271) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:52:05.234+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T15:52:05.236+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:52:05.235+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:52:05.278+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:52:05.325+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:52:05.325+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T15:52:05.364+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:52:05.364+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T14:50:00+00:00, run_after=2022-12-05T14:52:00+00:00
+[2022-12-05T15:52:05.396+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.174 seconds
+[2022-12-05T15:52:49.895+0100] {processor.py:153} INFO - Started process (PID=326322) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:52:49.898+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T15:52:49.899+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:52:49.899+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:52:49.944+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:52:50.005+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:52:50.004+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T15:52:50.047+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:52:50.047+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T14:50:00+00:00, run_after=2022-12-05T14:52:00+00:00
+[2022-12-05T15:52:50.093+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.206 seconds
+[2022-12-05T15:53:32.761+0100] {processor.py:153} INFO - Started process (PID=326403) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:53:32.762+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T15:53:32.763+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:53:32.763+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:53:32.822+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:53:32.871+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:53:32.871+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T15:53:32.911+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:53:32.911+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T14:50:00+00:00, run_after=2022-12-05T14:52:00+00:00
+[2022-12-05T15:53:32.951+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.194 seconds
+[2022-12-05T15:54:12.840+0100] {processor.py:153} INFO - Started process (PID=326455) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:54:12.842+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T15:54:12.843+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:54:12.843+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:54:12.888+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:54:12.943+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:54:12.942+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T15:54:12.987+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:54:12.986+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T14:52:00+00:00, run_after=2022-12-05T14:54:00+00:00
+[2022-12-05T15:54:13.019+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.185 seconds
+[2022-12-05T15:54:59.354+0100] {processor.py:153} INFO - Started process (PID=326510) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:54:59.355+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T15:54:59.356+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:54:59.356+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:54:59.407+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:54:59.471+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:54:59.471+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T15:54:59.521+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:54:59.520+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T14:52:00+00:00, run_after=2022-12-05T14:54:00+00:00
+[2022-12-05T15:54:59.555+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.205 seconds
+[2022-12-05T15:55:41.526+0100] {processor.py:153} INFO - Started process (PID=326565) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:55:41.528+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T15:55:41.529+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:55:41.528+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:55:41.584+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:55:41.656+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:55:41.656+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T15:55:41.690+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:55:41.690+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T14:52:00+00:00, run_after=2022-12-05T14:54:00+00:00
+[2022-12-05T15:55:41.723+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.202 seconds
+[2022-12-05T15:56:27.336+0100] {processor.py:153} INFO - Started process (PID=326626) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:56:27.340+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T15:56:27.341+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:56:27.341+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:56:27.392+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:56:27.446+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:56:27.446+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T15:56:27.484+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:56:27.483+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T14:54:00+00:00, run_after=2022-12-05T14:56:00+00:00
+[2022-12-05T15:56:27.519+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.188 seconds
+[2022-12-05T15:57:12.943+0100] {processor.py:153} INFO - Started process (PID=326681) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:57:12.947+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T15:57:12.949+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:57:12.949+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:57:12.995+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:57:13.047+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:57:13.046+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T15:57:13.087+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:57:13.087+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T14:54:00+00:00, run_after=2022-12-05T14:56:00+00:00
+[2022-12-05T15:57:13.116+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.182 seconds
+[2022-12-05T15:57:53.103+0100] {processor.py:153} INFO - Started process (PID=326729) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:57:53.105+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T15:57:53.106+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:57:53.106+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:57:53.149+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:57:53.215+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:57:53.215+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T15:57:53.258+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:57:53.257+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T14:54:00+00:00, run_after=2022-12-05T14:56:00+00:00
+[2022-12-05T15:57:53.291+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.192 seconds
+[2022-12-05T15:58:37.260+0100] {processor.py:153} INFO - Started process (PID=326811) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:58:37.262+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T15:58:37.263+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:58:37.262+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:58:37.314+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:58:37.371+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:58:37.371+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T15:58:37.419+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:58:37.418+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T14:56:00+00:00, run_after=2022-12-05T14:58:00+00:00
+[2022-12-05T15:58:37.754+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.499 seconds
+[2022-12-05T15:59:21.735+0100] {processor.py:153} INFO - Started process (PID=326868) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:59:21.736+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T15:59:21.739+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:59:21.738+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:59:21.790+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T15:59:21.846+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:59:21.846+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T15:59:21.884+0100] {logging_mixin.py:137} INFO - [2022-12-05T15:59:21.884+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T14:56:00+00:00, run_after=2022-12-05T14:58:00+00:00
+[2022-12-05T15:59:21.916+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.195 seconds
+[2022-12-05T16:00:03.287+0100] {processor.py:153} INFO - Started process (PID=326917) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:00:03.290+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T16:00:03.292+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:00:03.291+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:00:03.333+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:00:03.383+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:00:03.383+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T16:00:03.424+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:00:03.424+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T14:58:00+00:00, run_after=2022-12-05T15:00:00+00:00
+[2022-12-05T16:00:03.459+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.177 seconds
+[2022-12-05T16:00:43.919+0100] {processor.py:153} INFO - Started process (PID=326970) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:00:43.921+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T16:00:43.922+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:00:43.922+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:00:43.966+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:00:44.019+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:00:44.018+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T16:00:44.060+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:00:44.059+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T14:58:00+00:00, run_after=2022-12-05T15:00:00+00:00
+[2022-12-05T16:00:44.096+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.184 seconds
+[2022-12-05T16:01:25.822+0100] {processor.py:153} INFO - Started process (PID=327018) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:01:25.825+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T16:01:25.826+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:01:25.826+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:01:25.868+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:01:25.920+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:01:25.919+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T16:01:25.956+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:01:25.955+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T14:58:00+00:00, run_after=2022-12-05T15:00:00+00:00
+[2022-12-05T16:01:25.987+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.170 seconds
+[2022-12-05T16:02:05.523+0100] {processor.py:153} INFO - Started process (PID=327067) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:02:05.526+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T16:02:05.527+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:02:05.527+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:02:05.577+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:02:05.641+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:02:05.640+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T16:02:05.684+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:02:05.684+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T15:00:00+00:00, run_after=2022-12-05T15:02:00+00:00
+[2022-12-05T16:02:05.713+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.197 seconds
+[2022-12-05T16:02:53.626+0100] {processor.py:153} INFO - Started process (PID=327123) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:02:53.628+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T16:02:53.629+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:02:53.629+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:02:53.678+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:02:53.745+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:02:53.745+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T16:02:53.789+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:02:53.789+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T15:00:00+00:00, run_after=2022-12-05T15:02:00+00:00
+[2022-12-05T16:02:53.823+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.204 seconds
+[2022-12-05T16:03:36.548+0100] {processor.py:153} INFO - Started process (PID=327202) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:03:36.551+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T16:03:36.553+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:03:36.552+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:03:36.600+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:03:36.665+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:03:36.664+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T16:03:36.715+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:03:36.714+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T15:00:00+00:00, run_after=2022-12-05T15:02:00+00:00
+[2022-12-05T16:03:37.012+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.471 seconds
+[2022-12-05T16:04:19.168+0100] {processor.py:153} INFO - Started process (PID=327252) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:04:19.173+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T16:04:19.175+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:04:19.174+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:04:19.216+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:04:19.277+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:04:19.276+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T16:04:19.325+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:04:19.324+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T15:02:00+00:00, run_after=2022-12-05T15:04:00+00:00
+[2022-12-05T16:04:19.363+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.203 seconds
+[2022-12-05T16:04:58.421+0100] {processor.py:153} INFO - Started process (PID=327302) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:04:58.422+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T16:04:58.423+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:04:58.422+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:04:58.484+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:04:58.547+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:04:58.546+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T16:04:58.594+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:04:58.594+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T15:02:00+00:00, run_after=2022-12-05T15:04:00+00:00
+[2022-12-05T16:04:58.631+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.214 seconds
+[2022-12-05T16:05:39.786+0100] {processor.py:153} INFO - Started process (PID=327361) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:05:39.788+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T16:05:39.789+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:05:39.788+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:05:39.829+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:05:39.866+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:05:39.865+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T16:05:39.894+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:05:39.894+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T15:02:00+00:00, run_after=2022-12-05T15:04:00+00:00
+[2022-12-05T16:05:39.915+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.133 seconds
+[2022-12-05T16:06:17.644+0100] {processor.py:153} INFO - Started process (PID=327407) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:06:17.646+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T16:06:17.646+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:06:17.646+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:06:17.685+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:06:17.722+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:06:17.722+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T16:06:17.750+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:06:17.750+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T15:04:00+00:00, run_after=2022-12-05T15:06:00+00:00
+[2022-12-05T16:06:17.771+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.133 seconds
+[2022-12-05T16:07:05.173+0100] {processor.py:153} INFO - Started process (PID=327464) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:07:05.175+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T16:07:05.176+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:07:05.176+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:07:05.215+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:07:05.252+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:07:05.252+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T16:07:05.280+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:07:05.280+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T15:04:00+00:00, run_after=2022-12-05T15:06:00+00:00
+[2022-12-05T16:07:05.301+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.132 seconds
+[2022-12-05T16:07:43.596+0100] {processor.py:153} INFO - Started process (PID=327514) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:07:43.597+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T16:07:43.598+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:07:43.598+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:07:43.638+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:07:43.675+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:07:43.674+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T16:07:43.703+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:07:43.703+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T15:04:00+00:00, run_after=2022-12-05T15:06:00+00:00
+[2022-12-05T16:07:43.723+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.132 seconds
+[2022-12-05T16:08:21.368+0100] {processor.py:153} INFO - Started process (PID=327562) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:08:21.369+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T16:08:21.370+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:08:21.370+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:08:21.411+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:08:21.446+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:08:21.446+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T16:08:21.474+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:08:21.474+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T15:06:00+00:00, run_after=2022-12-05T15:08:00+00:00
+[2022-12-05T16:08:21.629+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.266 seconds
+[2022-12-05T16:09:08.080+0100] {processor.py:153} INFO - Started process (PID=327646) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:09:08.082+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T16:09:08.083+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:09:08.082+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:09:08.126+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:09:08.162+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:09:08.162+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T16:09:08.192+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:09:08.191+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T15:06:00+00:00, run_after=2022-12-05T15:08:00+00:00
+[2022-12-05T16:09:08.213+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.137 seconds
+[2022-12-05T16:09:55.555+0100] {processor.py:153} INFO - Started process (PID=327704) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:09:55.556+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T16:09:55.557+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:09:55.557+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:09:55.597+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:09:55.633+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:09:55.633+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T16:09:55.662+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:09:55.662+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T15:06:00+00:00, run_after=2022-12-05T15:08:00+00:00
+[2022-12-05T16:09:55.683+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.133 seconds
+[2022-12-05T16:10:38.037+0100] {processor.py:153} INFO - Started process (PID=327760) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:10:38.038+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T16:10:38.039+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:10:38.039+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:10:38.081+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:10:38.118+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:10:38.118+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T16:10:38.147+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:10:38.146+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T15:08:00+00:00, run_after=2022-12-05T15:10:00+00:00
+[2022-12-05T16:10:38.168+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.136 seconds
+[2022-12-05T16:11:24.934+0100] {processor.py:153} INFO - Started process (PID=327823) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:11:24.936+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T16:11:24.937+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:11:24.937+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:11:24.978+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:11:25.015+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:11:25.015+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T16:11:25.043+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:11:25.043+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T15:08:00+00:00, run_after=2022-12-05T15:10:00+00:00
+[2022-12-05T16:11:25.064+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.134 seconds
+[2022-12-05T16:12:09.171+0100] {processor.py:153} INFO - Started process (PID=327923) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:12:09.173+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T16:12:09.173+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:12:09.173+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:12:09.204+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:12:09.241+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:12:09.241+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T16:12:09.270+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:12:09.270+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T15:10:00+00:00, run_after=2022-12-05T15:12:00+00:00
+[2022-12-05T16:12:09.291+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.123 seconds
+[2022-12-05T16:12:53.933+0100] {processor.py:153} INFO - Started process (PID=327990) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:12:53.935+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T16:12:53.936+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:12:53.935+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:12:53.978+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:12:54.015+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:12:54.015+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T16:12:54.044+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:12:54.044+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T15:10:00+00:00, run_after=2022-12-05T15:12:00+00:00
+[2022-12-05T16:12:54.202+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.275 seconds
+[2022-12-05T16:13:35.893+0100] {processor.py:153} INFO - Started process (PID=328095) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:13:35.894+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T16:13:35.895+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:13:35.895+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:13:35.936+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:13:35.972+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:13:35.972+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T16:13:36.002+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:13:36.002+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T15:10:00+00:00, run_after=2022-12-05T15:12:00+00:00
+[2022-12-05T16:13:36.023+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.135 seconds
+[2022-12-05T16:14:17.649+0100] {processor.py:153} INFO - Started process (PID=328212) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:14:17.651+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T16:14:17.653+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:14:17.652+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:14:17.698+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:14:17.736+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:14:17.736+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T16:14:17.767+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:14:17.767+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T15:12:00+00:00, run_after=2022-12-05T15:14:00+00:00
+[2022-12-05T16:14:17.790+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.145 seconds
+[2022-12-05T16:15:03.874+0100] {processor.py:153} INFO - Started process (PID=328282) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:15:03.876+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T16:15:03.877+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:15:03.877+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:15:03.916+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:15:03.953+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:15:03.953+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T16:15:03.981+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:15:03.981+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T15:12:00+00:00, run_after=2022-12-05T15:14:00+00:00
+[2022-12-05T16:15:04.002+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.133 seconds
+[2022-12-05T16:15:44.554+0100] {processor.py:153} INFO - Started process (PID=328346) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:15:44.555+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T16:15:44.556+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:15:44.556+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:15:44.587+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:15:44.625+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:15:44.625+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T16:15:44.654+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:15:44.653+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T15:12:00+00:00, run_after=2022-12-05T15:14:00+00:00
+[2022-12-05T16:15:44.676+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.125 seconds
+[2022-12-05T16:16:28.200+0100] {processor.py:153} INFO - Started process (PID=328419) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:16:28.202+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T16:16:28.203+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:16:28.203+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:16:28.246+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:16:28.283+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:16:28.283+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T16:16:28.312+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:16:28.311+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T15:14:00+00:00, run_after=2022-12-05T15:16:00+00:00
+[2022-12-05T16:16:28.333+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.138 seconds
+[2022-12-05T16:17:12.713+0100] {processor.py:153} INFO - Started process (PID=328476) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:17:12.715+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T16:17:12.715+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:17:12.715+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:17:12.747+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:17:12.786+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:17:12.786+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T16:17:12.817+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:17:12.816+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T15:14:00+00:00, run_after=2022-12-05T15:16:00+00:00
+[2022-12-05T16:17:12.852+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.142 seconds
+[2022-12-05T16:18:10.793+0100] {processor.py:153} INFO - Started process (PID=328548) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:18:10.795+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T16:18:10.795+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:18:10.795+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:18:10.830+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:18:10.876+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:18:10.875+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T16:18:10.908+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:18:10.908+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T15:16:00+00:00, run_after=2022-12-05T15:18:00+00:00
+[2022-12-05T16:18:10.937+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.148 seconds
+[2022-12-05T16:18:56.220+0100] {processor.py:153} INFO - Started process (PID=328637) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:18:56.222+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T16:18:56.223+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:18:56.223+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:18:56.266+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:18:56.305+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:18:56.305+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T16:18:56.335+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:18:56.334+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T15:16:00+00:00, run_after=2022-12-05T15:18:00+00:00
+[2022-12-05T16:18:56.357+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.141 seconds
+[2022-12-05T16:19:42.997+0100] {processor.py:153} INFO - Started process (PID=328708) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:19:42.998+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T16:19:42.999+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:19:42.999+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:19:43.041+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:19:43.079+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:19:43.079+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T16:19:43.108+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:19:43.107+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T15:16:00+00:00, run_after=2022-12-05T15:18:00+00:00
+[2022-12-05T16:19:43.129+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.137 seconds
+[2022-12-05T16:20:31.914+0100] {processor.py:153} INFO - Started process (PID=328773) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:20:31.915+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T16:20:31.916+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:20:31.916+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:20:31.948+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:20:31.986+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:20:31.985+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T16:20:32.015+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:20:32.015+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T15:18:00+00:00, run_after=2022-12-05T15:20:00+00:00
+[2022-12-05T16:20:32.039+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.129 seconds
+[2022-12-05T16:21:18.168+0100] {processor.py:153} INFO - Started process (PID=328844) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:21:18.170+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T16:21:18.171+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:21:18.171+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:21:18.210+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:21:18.246+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:21:18.246+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T16:21:18.277+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:21:18.277+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T15:18:00+00:00, run_after=2022-12-05T15:20:00+00:00
+[2022-12-05T16:21:18.301+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.137 seconds
+[2022-12-05T16:22:08.378+0100] {processor.py:153} INFO - Started process (PID=328918) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:22:08.379+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T16:22:08.380+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:22:08.380+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:22:08.410+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:22:08.447+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:22:08.446+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T16:22:08.477+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:22:08.476+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T15:20:00+00:00, run_after=2022-12-05T15:22:00+00:00
+[2022-12-05T16:22:08.498+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.123 seconds
+[2022-12-05T16:22:56.460+0100] {processor.py:153} INFO - Started process (PID=329076) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:22:56.461+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T16:22:56.462+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:22:56.461+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:22:56.493+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:22:56.540+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:22:56.540+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T16:22:56.573+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:22:56.572+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T15:20:00+00:00, run_after=2022-12-05T15:22:00+00:00
+[2022-12-05T16:22:56.594+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.138 seconds
+[2022-12-05T16:23:44.777+0100] {processor.py:153} INFO - Started process (PID=329170) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:23:44.778+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T16:23:44.779+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:23:44.779+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:23:44.822+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:23:44.859+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:23:44.859+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T16:23:44.888+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:23:44.888+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T15:20:00+00:00, run_after=2022-12-05T15:22:00+00:00
+[2022-12-05T16:23:44.909+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.137 seconds
+[2022-12-05T16:24:32.587+0100] {processor.py:153} INFO - Started process (PID=329270) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:24:32.588+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T16:24:32.589+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:24:32.589+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:24:32.628+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:24:32.675+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:24:32.675+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T16:24:32.708+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:24:32.708+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T15:22:00+00:00, run_after=2022-12-05T15:24:00+00:00
+[2022-12-05T16:24:32.732+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.155 seconds
+[2022-12-05T16:25:18.121+0100] {processor.py:153} INFO - Started process (PID=329345) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:25:18.123+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T16:25:18.125+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:25:18.124+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:25:18.173+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:25:18.212+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:25:18.212+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T16:25:18.241+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:25:18.241+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T15:22:00+00:00, run_after=2022-12-05T15:24:00+00:00
+[2022-12-05T16:25:18.266+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.150 seconds
+[2022-12-05T16:26:09.938+0100] {processor.py:153} INFO - Started process (PID=329424) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:26:09.940+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T16:26:09.941+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:26:09.940+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:26:09.981+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:26:10.027+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:26:10.027+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T16:26:10.059+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:26:10.058+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T15:24:00+00:00, run_after=2022-12-05T15:26:00+00:00
+[2022-12-05T16:26:10.099+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.165 seconds
+[2022-12-05T16:27:03.218+0100] {processor.py:153} INFO - Started process (PID=329490) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:27:03.220+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T16:27:03.220+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:27:03.220+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:27:03.252+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:27:03.289+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:27:03.289+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T16:27:03.320+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:27:03.320+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T15:24:00+00:00, run_after=2022-12-05T15:26:00+00:00
+[2022-12-05T16:27:03.342+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.127 seconds
+[2022-12-05T16:27:53.879+0100] {processor.py:153} INFO - Started process (PID=329552) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:27:53.881+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T16:27:53.882+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:27:53.882+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:27:53.922+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:27:53.960+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:27:53.960+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T16:27:53.989+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:27:53.989+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T15:24:00+00:00, run_after=2022-12-05T15:26:00+00:00
+[2022-12-05T16:27:54.016+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.141 seconds
+[2022-12-05T16:28:40.047+0100] {processor.py:153} INFO - Started process (PID=329700) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:28:40.048+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T16:28:40.049+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:28:40.049+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:28:40.079+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:28:40.117+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:28:40.117+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T16:28:40.146+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:28:40.146+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T15:26:00+00:00, run_after=2022-12-05T15:28:00+00:00
+[2022-12-05T16:28:40.167+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.124 seconds
+[2022-12-05T16:29:32.778+0100] {processor.py:153} INFO - Started process (PID=329771) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:29:32.779+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T16:29:32.780+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:29:32.780+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:29:32.820+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:29:32.858+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:29:32.858+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T16:29:32.887+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:29:32.887+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T15:26:00+00:00, run_after=2022-12-05T15:28:00+00:00
+[2022-12-05T16:29:32.908+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.135 seconds
+[2022-12-05T16:30:19.506+0100] {processor.py:153} INFO - Started process (PID=329831) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:30:19.508+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T16:30:19.509+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:30:19.509+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:30:19.546+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:30:19.583+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:30:19.583+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T16:30:19.612+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:30:19.612+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T15:28:00+00:00, run_after=2022-12-05T15:30:00+00:00
+[2022-12-05T16:30:19.635+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.135 seconds
+[2022-12-05T16:31:13.781+0100] {processor.py:153} INFO - Started process (PID=329895) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:31:13.789+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T16:31:13.790+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:31:13.790+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:31:13.835+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:31:13.875+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:31:13.875+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T16:31:13.906+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:31:13.905+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T15:28:00+00:00, run_after=2022-12-05T15:30:00+00:00
+[2022-12-05T16:31:13.929+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.153 seconds
+[2022-12-05T16:42:48.522+0100] {processor.py:153} INFO - Started process (PID=330406) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:42:48.523+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T16:42:48.524+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:42:48.524+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:42:48.575+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:42:48.628+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:42:48.628+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T16:42:48.675+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:42:48.675+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T15:40:00+00:00, run_after=2022-12-05T15:42:00+00:00
+[2022-12-05T16:42:48.703+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.190 seconds
+[2022-12-05T16:43:29.970+0100] {processor.py:153} INFO - Started process (PID=330453) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:43:29.972+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T16:43:29.972+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:43:29.972+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:43:30.026+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:43:30.089+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:43:30.088+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T16:43:30.127+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:43:30.127+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T15:40:00+00:00, run_after=2022-12-05T15:42:00+00:00
+[2022-12-05T16:43:30.162+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.199 seconds
+[2022-12-05T16:44:13.468+0100] {processor.py:153} INFO - Started process (PID=330557) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:44:13.469+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T16:44:13.470+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:44:13.470+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:44:13.514+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:44:13.570+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:44:13.570+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T16:44:13.606+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:44:13.605+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T15:42:00+00:00, run_after=2022-12-05T15:44:00+00:00
+[2022-12-05T16:44:13.639+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.176 seconds
+[2022-12-05T16:44:57.350+0100] {processor.py:153} INFO - Started process (PID=330607) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:44:57.351+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T16:44:57.352+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:44:57.352+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:44:57.396+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:44:57.448+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:44:57.447+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T16:44:57.486+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:44:57.485+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T15:42:00+00:00, run_after=2022-12-05T15:44:00+00:00
+[2022-12-05T16:44:57.525+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.179 seconds
+[2022-12-05T16:45:38.268+0100] {processor.py:153} INFO - Started process (PID=330659) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:45:38.269+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T16:45:38.270+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:45:38.270+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:45:38.317+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:45:38.369+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:45:38.368+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T16:45:38.410+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:45:38.410+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T15:42:00+00:00, run_after=2022-12-05T15:44:00+00:00
+[2022-12-05T16:45:38.444+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.180 seconds
+[2022-12-05T16:46:23.978+0100] {processor.py:153} INFO - Started process (PID=330746) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:46:23.982+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T16:46:23.984+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:46:23.983+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:46:24.026+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:46:24.085+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:46:24.084+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T16:46:24.130+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:46:24.130+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T15:44:00+00:00, run_after=2022-12-05T15:46:00+00:00
+[2022-12-05T16:46:24.184+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.210 seconds
+[2022-12-05T16:47:07.959+0100] {processor.py:153} INFO - Started process (PID=330801) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:47:07.965+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T16:47:07.967+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:47:07.967+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:47:08.004+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:47:08.082+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:47:08.081+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T16:47:08.129+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:47:08.129+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T15:44:00+00:00, run_after=2022-12-05T15:46:00+00:00
+[2022-12-05T16:47:08.158+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.205 seconds
+[2022-12-05T16:48:21.238+0100] {processor.py:153} INFO - Started process (PID=330878) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:48:21.241+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T16:48:21.242+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:48:21.242+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:48:21.283+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:48:21.346+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:48:21.346+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T16:48:21.389+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:48:21.389+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T15:46:00+00:00, run_after=2022-12-05T15:48:00+00:00
+[2022-12-05T16:48:21.434+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.201 seconds
+[2022-12-05T16:58:06.130+0100] {processor.py:153} INFO - Started process (PID=331329) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:58:06.135+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T16:58:06.136+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:58:06.136+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:58:06.175+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:58:06.227+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:58:06.227+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T16:58:06.275+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:58:06.275+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T15:56:00+00:00, run_after=2022-12-05T15:58:00+00:00
+[2022-12-05T16:58:06.309+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.184 seconds
+[2022-12-05T16:58:52.615+0100] {processor.py:153} INFO - Started process (PID=331405) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:58:52.616+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T16:58:52.618+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:58:52.617+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:58:52.657+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:58:52.707+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:58:52.707+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T16:58:52.742+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:58:52.742+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T15:56:00+00:00, run_after=2022-12-05T15:58:00+00:00
+[2022-12-05T16:58:52.773+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.162 seconds
+[2022-12-05T16:59:39.909+0100] {processor.py:153} INFO - Started process (PID=331459) to work on /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:59:39.911+0100] {processor.py:743} INFO - Processing file /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-12-05T16:59:39.912+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:59:39.912+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:59:39.969+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-12-05T16:59:40.024+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:59:40.024+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-05T16:59:40.090+0100] {logging_mixin.py:137} INFO - [2022-12-05T16:59:40.089+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sla_dag to 2022-12-05T15:56:00+00:00, run_after=2022-12-05T15:58:00+00:00
+[2022-12-05T16:59:40.143+0100] {processor.py:175} INFO - Processing /home/andria/.local/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.238 seconds
