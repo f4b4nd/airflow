@@ -14,7 +14,6 @@ from airflow.providers.jdbc.operators.jdbc import JdbcOperator
 )
 def Process():
 
-
     read_table_jdbc = JdbcOperator(
         task_id="jdbc_fetchall",
         jdbc_conn_id="jdbc_inpa",
