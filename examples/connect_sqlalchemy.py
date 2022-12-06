@@ -9,9 +9,9 @@ ip = "1521"
 sid = "INPA" 
 
 if __name__ == "__main__":
-    url = f"jdbcapi+oraclejdbc://{host}:{ip}/{sid}"
+    url = f"jdbcapi+oraclejdbc://{'localhost'}:{ip}/{'xe'}"
     print(url)
-    print(url.split("//", 1)[-1])
+    print(url.split("//", 1)[-1].replace("/",":"))
     #sys.exit()
     engine = create_engine(url)
     with engine.connect() as connection:
@@ -23,4 +23,6 @@ if __name__ == "__main__":
 # working with :
 url = f"jdbcapi+oraclejdbc://{host}:{ip}/{sid}"
 # "url" : "jdbc:oracle:thin:@egp-sdlbinpa2.egp.aphp.fr:1521:INPA",
-# "driver_args": ['etlv2', 'pwd']
+# "driver_args": ['username', 'pwd']
+# jdbc_url: str = s.split("//", 1)[-1].replace("/",":")
+# sqlalchemy = "/sid" VS jdbcapi = ":sid"
