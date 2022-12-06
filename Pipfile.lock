@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "c224ddde2c66329d9f3b94886fa7bed5f5033e5a15c148ff6a42c53b3585f2bd"
+            "sha256": "a16ba386489b9fc43b04be2066065a1e6c3838ed53bf9f1411eae18b2af1718b"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -808,11 +808,11 @@
         },
         "mdit-py-plugins": {
             "hashes": [
-                "sha256:01e1c0f5432792d79ef627cd1745ce7c240d88d84b4e9dc6e87529a0f3ebba3e",
-                "sha256:c37ca25a4a5244b41cc3b34b9d7762a96ee0416dd43efaa837304d592a84995f"
+                "sha256:36d08a29def19ec43acdcd8ba471d3ebab132e7879d442760d963f19913e04b9",
+                "sha256:5cfd7e7ac582a594e23ba6546a2f406e94e42eb33ae596d0734781261c251260"
             ],
             "markers": "python_version >= '3.7'",
-            "version": "==0.3.2"
+            "version": "==0.3.3"
         },
         "mdurl": {
             "hashes": [
@@ -1253,6 +1253,14 @@
             ],
             "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4, 3.5'",
             "version": "==1.4.44"
+        },
+        "sqlalchemy-jdbcapi": {
+            "hashes": [
+                "sha256:59a2c90ae34df67b74a0658d6350c0dc174bfd252513cb5022a515919d8fce9f",
+                "sha256:96fe112c2834727b771d6b013085669a70e8548f76b34b77918788a4610d1b44"
+            ],
+            "index": "pypi",
+            "version": "==1.2.2"
         },
         "sqlalchemy-jsonfield": {
             "hashes": [

@@ -10,6 +10,7 @@ cx-oracle = "==8.3.0"
 oracledb = "==1.2.1"
 jaydebeapi = "==1.2.3"
 apache-airflow = "==2.5.0"
+sqlalchemy-jdbcapi = "==1.2.2"
 
 [dev-packages]
 
